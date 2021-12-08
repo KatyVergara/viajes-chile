@@ -1,6 +1,7 @@
 body{
+    font-family: 'Roboto', sans-serif;
     background-color: #000000;
-    color: #ffffff;/*borrar color de fuente en html*/
+    
 }
 
 @media (min-width:576px){
