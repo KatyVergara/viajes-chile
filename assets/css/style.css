@@ -1,8 +1,18 @@
 body{
-    font-family: 'Roboto', sans-serif;
     background-color: #000000;
-    
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+
 }
+#brand-text{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+#inicio{
+    font-weight: 600;
+}
+
 
 @media (min-width:576px){
     .img-carousel{
@@ -12,8 +22,6 @@ body{
     .colapsar-1{
         display: none;
     }
-
-
 }
 
 
