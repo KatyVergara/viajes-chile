@@ -13,7 +13,6 @@ body{
     font-weight: 600;
 }
 
-
 @media (min-width:576px){
     .img-carousel{
         width: 100%;
@@ -24,7 +23,9 @@ body{
     }
 }
 
-
+#footer h4{
+    font-weight: 700;
+}
 #footer a{
     color: #ffffff;
     text-decoration: none;
