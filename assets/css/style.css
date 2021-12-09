@@ -1,9 +1,15 @@
+html{
+    scroll-behavior: auto !important;
+}
+
 body{
     background-color: #000000;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 
 }
+
+
 #brand-text{
     font-weight: 700;
     font-size: x-large;
@@ -23,9 +29,11 @@ body{
     }
 }
 
-#footer h4{
+h4{
     font-weight: 700;
 }
+
+
 #footer a{
     color: #ffffff;
     text-decoration: none;
