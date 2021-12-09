@@ -6,7 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--CDN Bootstrap-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!--CDN Fontawesome-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
 		integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -28,7 +29,7 @@
 <body>
 
 	<!--navbar LISTO-->
-	<nav class="navbar navbar-expand-lg fixed-top">
+	<nav id="navbar-scroll" class="navbar navbar-expand-lg fixed-top">
 		<div class="container">
 			<a id="brand-text" class="navbar-brand text-white" href="#">
 				<img src="/assets/img/viajes.svg" alt="" width="30" height="24"
@@ -85,55 +86,67 @@
 	</section>
 
 	<!--PRESENTACION LISTA-->
-	<section id="presentacion" class="colapsar-1 text-white p-5 d-none d-sm-block">
-		<div>
-			<h4 class="text-center py-3">¿Quienes somos?</h4>
-		</div>
-		<hr class="bg-info" size="8px">
+	<div data-spy="scroll" data-target="#navbar-scroll" data-offset="0" class="scrollspy">
 
-		<div class="row py-3">
-			<div class="col-4">
-				<div class="icons bg-info text-center">
-					<i class="fas fa-plane fa-2x"></i>
+
+		<section id="presentacion" class="colapsar-1 text-white p-5 d-none d-sm-block">
+			<div>
+				<h4 class="text-center py-3">¿Quienes somos?</h4>
+			</div>
+			<hr class="bg-info" size="8px">
+
+			<div class="row py-3">
+				<div class="col-4">
+					<div class="icons bg-info text-center">
+						<i class="fas fa-plane fa-2x"></i>
+					</div>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi earum delectus velit?
+						Nemo, officiis dolor. Minus voluptas consectetur soluta magni quas quis. Distinctio, illo nisi
+						laborum accusantium ea aut! Harum illo amet magni, illum obcaecati modi quis corporis, odio fuga
+						quos facere vitae labore porro doloremque ipsa, alias officia animi molestiae earum? Explicabo
+						quo,
+						earum quae esse commodi, nulla voluptatem, doloribus distinctio quos pariatur vel debitis in.
+						Dolor
+						nam distinctio molestiae vitae excepturi corrupti quos fuga, deleniti alias ex at laboriosam
+						dolorum
+						nisi ipsum. Omnis corporis quo ab, delectus id sed odit aspernatur voluptatem molestiae dolores
+						sapiente iste incidunt.</p>
 				</div>
 
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi earum delectus velit?
-					Nemo, officiis dolor. Minus voluptas consectetur soluta magni quas quis. Distinctio, illo nisi
-					laborum accusantium ea aut! Harum illo amet magni, illum obcaecati modi quis corporis, odio fuga
-					quos facere vitae labore porro doloremque ipsa, alias officia animi molestiae earum? Explicabo quo,
-					earum quae esse commodi, nulla voluptatem, doloribus distinctio quos pariatur vel debitis in. Dolor
-					nam distinctio molestiae vitae excepturi corrupti quos fuga, deleniti alias ex at laboriosam dolorum
-					nisi ipsum. Omnis corporis quo ab, delectus id sed odit aspernatur voluptatem molestiae dolores
-					sapiente iste incidunt.</p>
+				<div class="col-4">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi earum delectus velit?
+						Nemo, officiis dolor. Minus voluptas consectetur soluta magni quas quis. Distinctio, illo nisi
+						laborum accusantium ea aut! Harum illo amet magni, illum obcaecati modi quis corporis, odio fuga
+						quos facere vitae labore porro doloremque ipsa, alias officia animi molestiae earum? Explicabo
+						quo,
+						earum quae esse commodi, nulla voluptatem, doloribus distinctio quos pariatur vel debitis in.
+						Dolor
+						nam distinctio molestiae vitae excepturi corrupti quos fuga, deleniti alias ex at laboriosam
+						dolorum
+						nisi ipsum. Omnis corporis quo ab, delectus id sed odit aspernatur voluptatem molestiae dolores
+						sapiente iste incidunt.</p>
+					<div class="icons bg-info text-center"><i class="fas fa-mountain fa-2x"></i></div>
+
+				</div>
+				<div class="col-4">
+					<div class="icons bg-info text-center"><i class="fas fa-route fa-2x"></i></div>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi earum delectus velit?
+						Nemo, officiis dolor. Minus voluptas consectetur soluta magni quas quis. Distinctio, illo nisi
+						laborum accusantium ea aut! Harum illo amet magni, illum obcaecati modi quis corporis, odio fuga
+						quos facere vitae labore porro doloremque ipsa, alias officia animi molestiae earum? Explicabo
+						quo,
+						earum quae esse commodi, nulla voluptatem, doloribus distinctio quos pariatur vel debitis in.
+						Dolor
+						nam distinctio molestiae vitae excepturi corrupti quos fuga, deleniti alias ex at laboriosam
+						dolorum
+						nisi ipsum. Omnis corporis quo ab, delectus id sed odit aspernatur voluptatem molestiae dolores
+						sapiente iste incidunt.</p>
+				</div>
+
 			</div>
-
-			<div class="col-4">
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi earum delectus velit?
-					Nemo, officiis dolor. Minus voluptas consectetur soluta magni quas quis. Distinctio, illo nisi
-					laborum accusantium ea aut! Harum illo amet magni, illum obcaecati modi quis corporis, odio fuga
-					quos facere vitae labore porro doloremque ipsa, alias officia animi molestiae earum? Explicabo quo,
-					earum quae esse commodi, nulla voluptatem, doloribus distinctio quos pariatur vel debitis in. Dolor
-					nam distinctio molestiae vitae excepturi corrupti quos fuga, deleniti alias ex at laboriosam dolorum
-					nisi ipsum. Omnis corporis quo ab, delectus id sed odit aspernatur voluptatem molestiae dolores
-					sapiente iste incidunt.</p>
-				<div class="icons bg-info text-center"><i class="fas fa-mountain fa-2x"></i></div>
-
-			</div>
-			<div class="col-4">
-				<div class="icons bg-info text-center"><i class="fas fa-route fa-2x"></i></div>
-
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi earum delectus velit?
-					Nemo, officiis dolor. Minus voluptas consectetur soluta magni quas quis. Distinctio, illo nisi
-					laborum accusantium ea aut! Harum illo amet magni, illum obcaecati modi quis corporis, odio fuga
-					quos facere vitae labore porro doloremque ipsa, alias officia animi molestiae earum? Explicabo quo,
-					earum quae esse commodi, nulla voluptatem, doloribus distinctio quos pariatur vel debitis in. Dolor
-					nam distinctio molestiae vitae excepturi corrupti quos fuga, deleniti alias ex at laboriosam dolorum
-					nisi ipsum. Omnis corporis quo ab, delectus id sed odit aspernatur voluptatem molestiae dolores
-					sapiente iste incidunt.</p>
-			</div>
-
-		</div>
-		</div>
+	</div>
 	</section>
 
 
@@ -229,7 +242,7 @@
 			<div class="row">
 
 				<div class="col-12 col-sm-6 ">
-					<a href="#carousel">
+					<a href="#mi-carousel">
 						<h4 class="pt-2">VIAJES CHILE</h4>
 					</a>
 
@@ -237,19 +250,23 @@
 
 				<div class="col-12 col-sm-6 pt-2">
 					<a href="https://github.com/" target="_blank">
-						<i class="fab fa-github-square fa-2x mx-2" data-toggle="tooltip" data-placement="top" title="GitHub"></i>
+						<i class="fab fa-github-square fa-2x mx-2" data-toggle="tooltip" data-placement="top"
+							title="GitHub"></i>
 					</a>
 
 					<a href="https://cl.linkedin.com/" target="_blank">
-						<i class="fab fa-linkedin fa-2x mx-2" data-toggle="tooltip" data-placement="top" title="LinkedIn"></i>
+						<i class="fab fa-linkedin fa-2x mx-2" data-toggle="tooltip" data-placement="top"
+							title="LinkedIn"></i>
 					</a>
 
 					<a href="https://twitter.com/" target="_blank">
-						<i class="fab fa-twitter-square fa-2x mx-2" data-toggle="tooltip" data-placement="top" title="Twitter"></i>
+						<i class="fab fa-twitter-square fa-2x mx-2" data-toggle="tooltip" data-placement="top"
+							title="Twitter"></i>
 					</a>
 
 					<a href="https://www.facebook.com/" target="_blank">
-						<i class="fab fa-facebook-square fa-2x mx-2" data-toggle="tooltip" data-placement="top" title="Facebook"></i>
+						<i class="fab fa-facebook-square fa-2x mx-2" data-toggle="tooltip" data-placement="top"
+							title="Facebook"></i>
 					</a>
 
 
@@ -262,7 +279,7 @@
 
 
 	</footer>
-
+	</div>
 
 
 
@@ -286,15 +303,18 @@
 
 
 	<!--CDN Popper + JavaScript-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-		crossorigin="anonymous"></script>
+	
+	
+
+	<!--CDN JQUERY 3.4.1.-->
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--CDN POPPER 1.14.3-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!--CDN BOOTSTRAPJAVASCRIPT 4.1.3-->
+  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 	<!--mi archivo JavaScript-->
 	<script src="assets/js/jquery.js"></script>
 </body>
