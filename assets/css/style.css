@@ -6,9 +6,7 @@ body{
     background-color: #000000;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-
 }
-
 
 #brand-text{
     font-weight: 700;
@@ -16,7 +14,7 @@ body{
 }
 
 #inicio{
-    font-weight: 600;
+    font-weight: 700;
 }
 
 @media (min-width:576px){
@@ -33,6 +31,12 @@ h4{
     font-weight: 700;
 }
 
+@media (min-width:576px){
+    #contacto{
+        width: 100%;
+        height: 100%;
+    }
+}
 
 #footer a{
     color: #ffffff;
